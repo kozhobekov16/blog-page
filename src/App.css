@@ -1,24 +1,14 @@
-.App {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body {
+    margin: 2rem 16rem;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  line-height: 20px;
-  width: 600px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-input {
-  margin-top: 20px;
-}
 
-button {
-  position: absolute;
-  bottom: 0;
-  margin-top: 1rem;
+form .MuiButton-root {
+    padding: 7px 14px;
+    margin: 1rem 20rem;
 }
